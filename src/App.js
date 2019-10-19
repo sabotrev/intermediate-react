@@ -13,7 +13,6 @@ const App = () => {
         <header>
           <Link to="/">Adopt Me!</Link>
         </header>
-        ;
         <Router>
           <SearchParams path="/" />
           <Details path="/details/:id" />
@@ -23,4 +22,4 @@ const App = () => {
   );
 };
 
-export default App;
+ReactDOM.render(<App />, document.getElementById("root"));
